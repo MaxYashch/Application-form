@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Project</title>
+</head>
+<body>
+	<form action="#" method="get">
+		<div>
+			<p>Имя</p>
+			<input type="text" name="username" tabindex="1" placeholder="Имя">
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input type="password" name="userpass" tabindex="2" placeholder="Пароль">
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input type="tel" name="userphone" tabindex="3" placeholder="Телефон">
+		</div>
+		<div>
+			<p>Пол</p>
+			<div>
+				<p><input type="radio" checked name='gender' value="male" tabindex="4">Мужской</p>
+			</div>
+			<div>
+				<p><input type="radio" name='gender' value="female" tabindex="4">Женский</p>
+			</div>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div>
+				<p><input type="checkbox" checked name='bike' value="yes" tabindex="5">Велосипед</p>
+			</div>
+			<div>
+				<p><input type="checkbox" name='car' value="yes" tabindex="5">Машина</p>
+			</div>
+			<div>
+				<p><input type="checkbox" disabled name='flat' value="yes" tabindex="5">Квартира</p>
+			</div>			
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<div>
+				<textarea tabindex="6" name="additional_info"></textarea tabindex="">
+			</div>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<div>
+				<input tabindex="7" type="file" name="photo">
+			</div>
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select name="colour" id="#">
+				<option tabindex="8" value="red">Красный</option>
+				<option tabindex="8" value="blue">Синий</option>
+				<option tabindex="8" value="white" selected>Белый</option>
+				<option tabindex="8" value="black">Черный</option>
+			</select>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button tabindex="9" type="submit">Отправить</button>
+			<button tabindex="10" type="reset">Очистить</button>
+		</div>
+	</form>	
+</body>
+</html>
